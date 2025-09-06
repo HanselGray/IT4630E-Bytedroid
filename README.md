@@ -60,7 +60,7 @@ These datasets include labeled Android applications (benign vs malicious) which 
 
 ## Alternative Approach: PCA for Malware Detection 
 
-As an alternative to our primary solution, we also explored using **Principal Component Analysis (PCA)** on **Dalvik Executable (DEX) bytecode**.  [source-code](/pca_train.ipynb)
+As an alternative to our primary solution, we also explored using **Principal Component Analysis (PCA)** on **Dalvik Executable (DEX) bytecode**.  The code for the PCA approach can be found [HERE](/pca_train.ipynb)
 
 - **Feature Extraction**: DEX bytecode is converted into numerical vectors representing instruction patterns.  
 - **Dimensionality Reduction**: PCA reduces the high-dimensional feature space, retaining only the most relevant components.
